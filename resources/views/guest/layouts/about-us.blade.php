@@ -1,5 +1,5 @@
 <div id="about-us">
-    <img id="img_1" src="{{ url('images/automata_3.png') }}" alt="">
+    <img class="img_1" src="{{ url('images/automata_3.png') }}" alt="">
     <div class="container py5">
         <section class="about-us">            
             <div class="row">

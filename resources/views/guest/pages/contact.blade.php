@@ -1,5 +1,10 @@
 @extends('guest.layouts.app')
 
+@section('meta_keywords', )
+@section('meta_description', 'Auto Mata 3D is a highly skilled and intelligent team of web 3 application, ready to deliver innovative applications, decentralization, and tokenization of digital property rights.')
+@section('page_title', 'Auto Mata 3D - Contact | Experienced Team of Developers')
+@section('canonical_url', 'https://www.automata3d.com/contact')
+
 @section('content')
     <div id="contacts">
         <div class="content">
@@ -7,8 +12,8 @@
                 @include('guest.snippets.hero-shapes')
                 <img class="bg-building" src="{{ url('images/bg/bg_contact_hero_buildings.png') }}" alt="">
                 @include('guest.layouts.header')
-                <div class="text-content">
-                    <p class="mb5">CONTACT</p>
+                <div class="text-content c-h1-p">
+                    <h1 class="mb5">CONTACT</h1>
                     <p class="my0">Phone</p>
                     <p class="font-bold mb4 mt0">(904) 512-7393</p>
                     <p class="my0">Email</p>

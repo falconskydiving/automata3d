@@ -1,8 +1,9 @@
 @extends('guest.layouts.app')
 
-{{-- @section('meta_keywords', $data['meta_tags'][0]->keywords)
-@section('meta_description', $data['meta_tags'][0]->description)
-@section('page_title', $data['meta_tags'][0]->page) --}}
+@section('meta_keywords', )
+@section('meta_description', 'Web 3 development website with a programming language and other latest technologies, we develop scalable, intelligent, stand-alone, and technologically advanced applications.')
+@section('page_title', 'Auto Mata 3D - Web 3 Development Website for Advanced Technology | Blockchain Development')
+@section('canonical_url', 'https://www.automata3d.com/')
 
 @section('content')
     <div id="home">
@@ -10,9 +11,9 @@
             <div class="hero-section">
                 @include('guest.snippets.hero-shapes')
                 @include('guest.layouts.header')
-                <div class="center-vertically-horizontally">
-                    <h3 class="white-text text-center font-bold mb5 pb5">Powerful Web3 Development<br>
-                        for advanced technology</h3>
+                <div class="center-vertically-horizontally c-h1">
+                    <h1 class="white-text text-center font-bold mb5 pb5">Powerful Web3 Development<br>
+                        for advanced technology</h1>
                     <div class="btn-container mt5 get-in-touch">
                         <img class="bg-2" src="{{ url('images/layer_2.png') }}" alt="">
                         <a href="{{ url('/contact') }}">
@@ -25,7 +26,7 @@
             <div class="second-section">
                 <div class="shape-box-1"></div>
                 <div class="shape-box-2"></div>
-                <img id="img_1" src="{{ url('images/controller_1.png') }}" alt="">
+                <img class="img_1" src="{{ url('images/controller_1.png') }}" alt="">
                 <img id="img_2" src="{{ url('images/automata_2.png') }}" alt="">
                 <img id="img_3" src="{{ url('images/Polygon.png') }}" alt="">
                 <div class="text-content">                    
@@ -58,9 +59,9 @@
                 </div>
             </div>
             <div class="fourth-section">                
-                <img id="img_1" src="{{ url('images/Layer_3.png') }}" alt="">
-                <div class="text-content">
-                    <h3 class="mb5 font-bold">Blockchain GameFi Development</h3>
+                <img  class="img_1" src="{{ url('images/Layer_3.png') }}" alt="">
+                <div class="text-content c-h2">
+                    <h2 class="mb5 font-bold">Blockchain GameFi Development</h2>
                     <p>Automata develops games that combine video games with blockchain technology, cryptocurrencies and
                         decentralized finance also known as GameFi.</p>
                     <p>With focus on play-to-earn (P2E), we are developing in-game economies using cryptocurrencies,

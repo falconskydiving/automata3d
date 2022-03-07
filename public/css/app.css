@@ -1208,7 +1208,7 @@ ul:not(.browser-default) {
     height: 21vw;
   }
 }
-#home .second-section #img_1 {
+#home .second-section .img_1 {
   position: absolute;
   right: 20px;
   bottom: 0;
@@ -1216,7 +1216,7 @@ ul:not(.browser-default) {
   height: 120%;
 }
 @media (max-width: 575.98px) {
-  #home .second-section #img_1 {
+  #home .second-section .img_1 {
     width: 30vw;
     height: auto;
   }
@@ -1309,7 +1309,7 @@ ul:not(.browser-default) {
   display: flex;
   flex-direction: row-reverse;
 }
-#home .fourth-section #img_1 {
+#home .fourth-section .img_1 {
   position: absolute;
   left: -150px;
   bottom: 0;
@@ -1317,7 +1317,7 @@ ul:not(.browser-default) {
   height: 120%;
 }
 @media (max-width: 575.98px) {
-  #home .fourth-section #img_1 {
+  #home .fourth-section .img_1 {
     width: 30vw;
     height: auto;
     left: 20px;
@@ -1608,7 +1608,7 @@ ul:not(.browser-default) {
   z-index: 2;
   position: relative;
 }
-#careers .second-section .text-content #img_1 {
+#careers .second-section .text-content .img_1 {
   height: 120%;
   left: 25%;
   bottom: 0;
@@ -1617,12 +1617,12 @@ ul:not(.browser-default) {
   z-index: 1;
 }
 @media (max-width: 767.98px) {
-  #careers .second-section .text-content #img_1 {
+  #careers .second-section .text-content .img_1 {
     transform: scaleX(-1);
   }
 }
 @media (max-width: 575.98px) {
-  #careers .second-section .text-content #img_1 {
+  #careers .second-section .text-content .img_1 {
     width: 30vw;
     height: auto;
     left: unset;
@@ -1821,7 +1821,7 @@ ul:not(.browser-default) {
   z-index: 2;
   position: relative;
 }
-#investors .second-section .text-content #img_1 {
+#investors .second-section .text-content .img_1 {
   height: 120%;
   left: 25%;
   bottom: 0;
@@ -1830,12 +1830,12 @@ ul:not(.browser-default) {
   z-index: 1;
 }
 @media (max-width: 767.98px) {
-  #investors .second-section .text-content #img_1 {
+  #investors .second-section .text-content .img_1 {
     transform: scaleX(-1);
   }
 }
 @media (max-width: 575.98px) {
-  #investors .second-section .text-content #img_1 {
+  #investors .second-section .text-content .img_1 {
     width: 30vw;
     height: auto;
     left: unset;
@@ -1880,7 +1880,7 @@ ul:not(.browser-default) {
     background-size: cover;
   }
 }
-#about-us #img_1 {
+#about-us .img_1 {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1944,7 +1944,7 @@ ul:not(.browser-default) {
   font-size: 10px;
   text-align: right;
 }
-#footer #img_1 {
+#footer .img_1 {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -2283,4 +2283,15 @@ nav ul a {
   left: 0;
   transform: translate(-50%, 25%);
   width: 350px;
+}
+
+.c-h1 h1,.c-h2 h2{
+  font-size: 2.92rem;
+}
+
+.c-h1-p h1{
+      font-size: 16px;
+          margin-top: 0px !important;    
+        font-family: "Open Sans", sans-serif;
+    color: white;
 }

@@ -42,7 +42,7 @@
             This site protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply
         </p>
     </div>
-    <img id="img_1" src="{{ url('images/automata_2.png') }}" alt="">    
+    <img class="img_1" src="{{ url('images/automata_2.png') }}" alt="">    
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
